@@ -102,7 +102,7 @@ uvicorn app.main:app --reload
 
 ## 🔗 MCP Client Integration & Configuration
 
-This AI-powered FastAPI-MCP server can be seamlessly integrated with any tool that supports the **Model Context Protocol (MCP)** — including popular tools like **Windsurf** and **Cursor**.
+Our AI-powered FastAPI-MCP server can be seamlessly integrated with any tool that supports the **Model Context Protocol (MCP)** — including popular tools like **Windsurf** and **Cursor**.
 
 Just point your MCP-compatible client to the server URL:
 
