@@ -1,0 +1,8 @@
+fastapi
+fastapi-mcp
+pydantic
+shotgun-api3
+uvicorn
+pytest
+syrupy
+python-dotenv
