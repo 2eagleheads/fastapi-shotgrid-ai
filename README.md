@@ -1,10 +1,6 @@
 
----
-
 > ⚠️ **Project Status: In Active Development**
 > This project is still under construction — features may change and bugs are possible. Use with caution and feel free to contribute or report issues!
-
----
 
 # ⚡ Shotgrid AI MCP Server
 
@@ -12,8 +8,6 @@
 
 > A blazing-fast, context-aware server powered by AI for Shotgrid production tracking workflows.
 > **Built with ❤️ on top of FastAPI-MCP.**
-
----
 
 ## ✨ Key Features
 
@@ -26,7 +20,6 @@
 * 💡 **AI-Enhanced Decision Making** for dynamic data operations
 * 📦 **Efficient Connection Pooling** for robust scalability
 
----
 
 ## 🤖 AI Demo Workflow
 
@@ -48,8 +41,6 @@
 * 📝 Generates an automatic description
 * 🖼 Uploads a relevant thumbnail
 
----
-
 ## 🎁 Benefits
 
 * ⏱ Saves hours of manual work
@@ -57,20 +48,15 @@
 * 🧾 Summarizes every change for transparency
 * 🤝 Helps artists, producers, and tech teams stay in sync
 
----
-
 ## 🧠 More AI Magic
 
 ![AI Chat](images/chat.gif)
-
----
 
 ## 🔧 Prerequisites
 
 * 🐍 Python **3.9+**
 * 🔐 Shotgrid API credentials
 
----
 
 ## 📦 Installation
 
@@ -102,8 +88,6 @@ SHOTGRID_SCRIPT_NAME=<your-script-name>
 SHOTGRID_SCRIPT_KEY=<your-script-key>
 ```
 
----
-
 ## 🚀 Running the Server
 
 Start the FastAPI server with hot-reload:
@@ -114,8 +98,6 @@ uvicorn app.main:app --reload
 
 📍 Visit: [http://localhost:8000](http://localhost:8000)
 📘 Docs: [http://localhost:8000/docs](http://localhost:8000/docs)
-
----
 
 ## 🔗 MCP Client Integration & Configuration
 
@@ -151,7 +133,6 @@ Just point your MCP-compatible client to the server URL:
 
 > 🔧 Replace `"fastapi-mcp"` with any name you like — it will appear as the server label in your client UI.
 
----
 
 ## 🧠 LLM Compatibility
 
@@ -172,15 +153,12 @@ In our demo, we used the following toolchain:
 
 > 🗨️ With this combo, the LLM can talk directly to the ShotGrid API and automate production tasks through natural conversation.
 
----
 
 ## ✅ Running Tests
 
 ```bash
 pytest tests/
 ```
-
----
 
 ## 🔌 API Endpoints
 
@@ -193,8 +171,6 @@ pytest tests/
 | Users    | `/users/`    | CRUD      |
 
 🧠 **All routes are context-aware and enhanced via MCP (Model Context Protocol)**
-
----
 
 ## 🗂 Project Structure
 
@@ -216,16 +192,19 @@ shotgrid_mcp_project/
 └── README.md
 ```
 
----
+
+## 📚 Related Projects & Standards
+
+* 🔗 **FastAPI-MCP** – base framework used in this project:
+  [https://github.com/robodreams/fastapi-mcp](https://github.com/robodreams/fastapi-mcp)
+
+* 📖 **Model Context Protocol (MCP)** – specification powering structured LLM tool use:
+  [https://modelcontextprotocol.io/](https://modelcontextprotocol.io/)
 
 ## 🤝 Contributing
 
 PRs and ideas are welcome! Feel free to fork, enhance, or reach out.
 
----
-
 ## 💬 Contact
 
 For questions, feedback or collaboration, open an issue or ping me on GitHub.
-
----
