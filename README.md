@@ -24,7 +24,7 @@
 ## 🤖 AI Demo Workflow
 
 ### 🎯 Use Case
----
+
 > 🧩 **CRUD Everywhere** — full control over all ShotGrid entities
 > 🧠 **AI creates a project based on your text prompt**
 
@@ -35,7 +35,7 @@
 ![AI Shot Creation](images/create_shot.gif)
 
 ### 🧠 What AI Does:
----
+
 > 🛠 **Executes a full pipeline of commands** to create a shot and attach a thumbnail
 * 🔍 Searches for existing projects
 * 🧱 Creates a new shot if not found
