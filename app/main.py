@@ -32,7 +32,6 @@ if __name__ == "__main__":
         app,
         name="Shotgrid MCP Server",
         description="MCP server for Shotgrid API integration",
-        include_operations=["get_projects"],
     )
     mcp.mount()
 
